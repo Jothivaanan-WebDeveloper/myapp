@@ -4,6 +4,7 @@ import './App.css';
 import Fragment from './components/Fragment';
 import Hello from './components/Hello';
 import Table from './components/Table';
+import GetTextColor from './components/UseStateHooks';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <div class='container-fluid'>
           <Table />
       </div>
+      <GetTextColor />
     </>
+   
   );
 }
 
